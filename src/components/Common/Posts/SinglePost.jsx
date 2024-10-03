@@ -135,7 +135,6 @@ const SinglePost = () => {
           </section>
           {post && <Recommended post={post} />}
           <Comments postId={postId} />
-
         </>
       )}
     </>
